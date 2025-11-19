@@ -1,4 +1,4 @@
-git clone <repo-url> ,
+git clone <repo-url>, 
 cd 90DaysOfDevOps,
 mkdir week-4-challenge,
 cd week-4-challenge,
@@ -21,8 +21,6 @@ git merge feature-update
 git@github.com:<github id.>/<repo name>
 
 
-
-
 Why branch strategies are important?
 1. Isolation - Har feature apani branch me banata hai.
 2. Parallel Devlopment - multiple developers ek sath kaam kar sakate hai.
@@ -34,5 +32,3 @@ Why branch strategies are important?
 
 # I learned how to create branches, handel merge conflicts, and push changes to GitHub.
 This challenge improved my understanding of Git workflows and PR creation
-~                                                                        
- 
