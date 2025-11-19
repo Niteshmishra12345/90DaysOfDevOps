@@ -1,19 +1,25 @@
-<<<<<<< HEAD
-git clone <repo-url>
-cd 90DaysOfDevOps
-mkdir week-4-challenge
-cd week-4-challenge
-git init
-git add info.txt
-git commit -m "Initial commit"
-git remote add origin master
-git push -u origin <URL>
-git push -u origin master
-git branch feature-update
-git switch feature-update
-git add info.txt
-git commit -m "Feature update"
-git push origin feature-update
+git clone <repo-url>, 
+cd 90DaysOfDevOps,
+mkdir week-4-challenge,
+cd week-4-challenge,
+git init,
+git add info.txt,
+git commit -m "Initial commit",
+git remote add origin master,
+git push -u origin <URL>,
+git push -u origin master,
+git branch feature-update,
+git switch feature-update,
+git add info.txt,
+git commit -m "Feature update",
+git push origin master,
+git switch master
+git checkout master
+git branch
+git log
+git merge feature-update
+git@github.com:<github id.>/<repo name>
+
 
 Why branch strategies are important?
 1. Isolation - Har feature apani branch me banata hai.
@@ -26,6 +32,3 @@ Why branch strategies are important?
 
 # I learned how to create branches, handel merge conflicts, and push changes to GitHub.
 This challenge improved my understanding of Git workflows and PR creation
-~                                                                        
- 
->>>>>>> feature-update
