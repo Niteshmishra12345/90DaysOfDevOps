@@ -12,7 +12,16 @@ git branch feature-update,
 git switch feature-update,
 git add info.txt,
 git commit -m "Feature update",
-git push origin feature-update,
+git push origin master,
+git switch master
+git checkout master
+git branch
+git log
+git merge feature-update
+git@github.com:<github id.>/<repo name>
+
+
+
 
 Why branch strategies are important?
 1. Isolation - Har feature apani branch me banata hai.
